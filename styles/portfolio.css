@@ -225,7 +225,7 @@ footer input[type = "text"], footer input[type = "email"], footer textarea {
 @media screen and (max-width: 576px){
     .skill-container,
     .resume-container, 
-    footer, 
+    footer, .banner,
     .about-items{
         flex-direction : column;
     }
@@ -238,4 +238,11 @@ footer input[type = "text"], footer input[type = "email"], footer textarea {
     footer input[type = "text"], footer input[type = "email"], footer textarea {
         width: calc(100% - 40px);
     }
+    .banner{
+        margin:20px;
+    }
+    .secondary-bg{
+        background-image: none;
+    }
+
 }
