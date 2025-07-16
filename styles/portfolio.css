@@ -229,6 +229,10 @@ footer input[type = "text"], footer input[type = "email"], footer textarea {
     .about-items{
         flex-direction : column;
     }
+    nav, nav > ul{
+        flex-direction: column;
+        gap:10px;
+    }
     footer, .about{
         padding:20px;
     }
@@ -244,5 +248,7 @@ footer input[type = "text"], footer input[type = "email"], footer textarea {
     .secondary-bg{
         background-image: none;
     }
-
+    .banner-profile-pic{
+        width:100%;
+    }
 }
